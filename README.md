@@ -15,6 +15,7 @@ If you are here, you already now that Plaidml can be really tricky to install (e
 
 ```
 conda create -n plaidml
+conda activate plaidml
 ```
 
 - Uninstall any conflicting or older version
