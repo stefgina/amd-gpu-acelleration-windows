@@ -35,7 +35,7 @@ pip install plaidml-keras plaidbench
 ```
 plaidml-setup
 ```
-- Before running any test, downgrade h5py bellow version 3.0.0 because of conflicts. (I went for 2.10.0)
+- Before running any test, downgrade h5py bellow version 3.0.0 because of conflicts (I went for 2.10.0)
 ```
 pip install h5py==2.10.0
 ```
