@@ -35,7 +35,7 @@ pip install plaidml==0.6.4
 ```
 pip install plaidml-keras plaidbench
 ```
-- Setup plaidml (Choose between 1,2,3,4.. the one that represent your graphics card)
+- Setup plaidml (Choose between 1,2,3,4, etc. the one that represent your graphics card)
 ```
 plaidml-setup
 ```
