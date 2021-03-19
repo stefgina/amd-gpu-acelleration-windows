@@ -1,4 +1,4 @@
-# Plaidml-Keras installation for Windows
+# Plaidml-Keras GPU for Windows
 ```python
 
 Author -> Stefanos Ginargyros
@@ -6,11 +6,11 @@ Author -> Stefanos Ginargyros
 ```
 ## Setup
 
-Plaidml can be really tricky to install. In order to overcome all the potential Windows errors, follow carefully.
+If you are here, you already now that Plaidml can be really tricky to install (especially in Windows). In order to overcome all the potential Windows errors, follow carefully.
 
 - Install Anaconda
 - Install the latest Visual C++ from [here](https://support.microsoft.com/en-us/topic/the-latest-supported-visual-c-downloads-2647da03-1eea-4433-9aff-95f26a218cc0)
-- Now RESTART!
+- Restart!
 - Create a conda virtual environment for plaidml
 
 ```
@@ -46,10 +46,11 @@ plaidbench keras mobilenet
 ```
 or
 ```
-plaidbench --batch-size 16 keras --train mobilenet
+plaidbench --batch-size 8 keras --train mobilenet
 ```
 - Remember to set the batch size, to a number that doesn't exceed your GPU VRAM. For my Tahiti chip AMD-GPU (3 gigs of RAM) a good number for this test was --batch-size 8.
+- If everything went smoothly then by running AMD Randeon Software while testing with the above command, you should see something similar to this: 
 
-<img src=''>
+<img src='https://github.com/stefgina/plaidml-keras-AMD-GPU/blob/main/plaidml4.png'>
 
 
