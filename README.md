@@ -50,7 +50,7 @@ or
 plaidbench --batch-size 8 keras --train mobilenet
 ```
 - Remember to set the batch size, to a number that doesn't exceed your GPU VRAM. For my Tahiti chip AMD-GPU (3 gigs of RAM) a good number for this test was --batch-size 8.
-- If everything went smoothly then by running AMD Randeon Software while testing with the above command, you should see something similar to this: 
+- If everything went smoothly then by running AMD Randeon Software while testing with the above command, you should see your graphics card getting heavily utilized: 
 
 <img src='https://github.com/stefgina/plaidml-keras-AMD-GPU/blob/main/plaidml4.png'>
 
