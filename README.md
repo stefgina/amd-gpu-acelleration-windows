@@ -1,10 +1,10 @@
-# plaidml-keras for AMD GPU's (Windows)
+# Plaidml-Keras installation for Windows
 ```python
 
 Author -> Stefanos Ginargyros
 
 ```
-## 1. PlaidML Windows Setup
+## Setup
 
 Plaidml can be really tricky to install. In order to overcome all the potential Windows errors, follow carefully.
 
@@ -49,5 +49,7 @@ or
 plaidbench --batch-size 16 keras --train mobilenet
 ```
 - Remember to set the batch size, to a number that doesn't exceed your GPU VRAM. For my Tahiti chip AMD-GPU (3 gigs of RAM) a good number for this test was --batch-size 8.
+
+<img src=''>
 
 
