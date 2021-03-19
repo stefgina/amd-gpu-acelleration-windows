@@ -1,4 +1,7 @@
 # Plaidml-Keras GPU for Windows
+
+<img src='https://github.com/stefgina/amd-gpu-acelleration-windows/blob/main/plaid-final.png' width=500>
+
 ```python
 
 Author -> Stefanos Ginargyros
