@@ -9,7 +9,7 @@ Author -> Stefanos Ginargyros
 ```
 ## Setup
 
-If you are here, you already now that Plaidml can be really tricky to install (especially in Windows). In order to overcome all the potential Windows errors, follow carefully.
+If you are here, you already now that Plaidml can be really tricky to install (especially on Windows). In order to overcome all the potential Windows errors, follow carefully.
 
 - Install Anaconda from [here](https://docs.anaconda.com/anaconda/install/windows/)
 - Install the latest Visual C++ from [here](https://support.microsoft.com/en-us/topic/the-latest-supported-visual-c-downloads-2647da03-1eea-4433-9aff-95f26a218cc0)
